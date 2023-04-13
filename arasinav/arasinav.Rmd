@@ -43,33 +43,21 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 
 ## Çalışmanın Amacı
-Çalışamamızda olası büyük İstanbul depreminin ne kadar kişiyi etkileyeceğini ve sebep olacağı olası can kayıplarını belirleyeceğiz. Aynı zamanda şehirdeki alt ve üst yapılarına (ev, okul, işyeri, hastane, kültürel ve tarihi mekanlar,endüstriyel tesisler) ne derece bir zarar verme riski olduğunu ve bu risklerin azaltılması için nasıl tedbirler alınması gerektiğini ortaya koyacağız.
+Çalışamamızda olası büyük İstanbul depreminin ne kadar kişiyi etkileyeceğini ve sebep olacağı olası can kayıplarını belirleyeceğiz. Aynı zamanda şehirdeki alt ve üst yapıla (ev, okul, işyeri, hastane, kültürel ve tarihi mekanlar,endüstriyel tesisler) ne derece bir zarar verme riski olduğunu ve bu risklerin azaltılması için nasıl tedbirler alınması gerektiğini ortaya koyacağız.
 
 ## Literatür 
 Dünyada olduğu gibi ülkemizde de,kentlerde nüfus artışı ve yapılaşmanın hızlı yoğun ve de karmaşık halde gelişmesi nedenleriyle depremler büyük can ve mal kayıpları meydana getirmektedirler Doğal afetler içinde depremler verdikleri zararlar (%60) nedeniyle ön sırada yer alır. Ülkelerin ve kentlerin depreme hazırlıklı olabilmeleri için olası depremlerin yerleri, derinlikleri, kente yakınlıkları ve kentin zemin durumu dikkate alınarak yapılacak
-çok yönlü çalışmalar ve çeşitli organizasyonlarla ortaya konmalıdır.(Jeoloji Mühendisliği Dergisi 27 (2) 2003)Istanbul’da ortalama 800,000 adet bina bulunmaktadır. Hem şiddet hem de spektral deplasman bazlı yer hareketi ve hasargörebilirlik analizleri kullanılarak yapılan belirlemeler toplam 35,000 ile 40,000
-(toplam bina stoğunun % 5’i) binanın tamamen hasar göreceğini göstermektedir.70,000 binanın ağır hasar,200,000 binanın ise orta hasar göreceği tahmin edilmektedir.Can kayıplarının 30,000 ile 40,000 arasında değişeceği tahmin edilmektedir. Hastane bakımı
+çok yönlü çalışmalar ve çeşitli organizasyonlarla ortaya konmalıdır.(@iskenderouglu2003istanbul)Istanbul’da ortalama 800,000 adet bina bulunmaktadır. Hem şiddet hem de spektral deplasman bazlı yer hareketi ve hasargörebilirlik analizleri kullanılarak yapılan belirlemeler toplam 35,000 ile 40,000(toplam bina stoğunun % 5’i) binanın tamamen hasar göreceğini göstermektedir.70,000 binanın ağır hasar,200,000 binanın ise orta hasar göreceği tahmin edilmektedir.Can kayıplarının 30,000 ile 40,000 arasında değişeceği tahmin edilmektedir. Hastane bakımı
 gerektirecek yaralı sayısı 120,000 civarında olacaktır. Şiddet bazlı analiz sonucuna göre toplam 600,000
-ailenin, spektral bazlı çalışmaya göre de 430,000 ailenin deprem sonrası acil barınma ihtiyacı doğacağı beklenmektedir. (Nat Hazards (2008)Marmara Bölgesi’nde yakın bir gelecekte meydana gelmesi beklenen büyük depremden dolayı,İstanbul kentinin eşsiz tarih ve kültür mirası çok ciddi bir deprem tehditi altındadır (Durukal ve diğerleri,2001). Aynı zamanda şehrin altyapısında da muhtemel tehditler bulunmaktadır.480 adet köprünün deprem performansının öndeğerlendirmesi yapılmıştır. 21 köprünün
-tabliye düşmesi sonunda hasara uğraması kuvvetle muhtemel, 4 köprünün tabliye düşmesi nedeniyle hasara uğraması orta derecede muhtemel olarak bulunmuştur.İstanbul metropol alanı içinde yer alan doğalgaz sistemi boru hatlarında çok az hasar meydana geleceği tahmin edilmektedir. ARC-BÜ çalışması kapsamında 70 sızıntı hasarının ve 17 kopma hasarının oluşabileceği tahmin edilmiştir.BU-ARC (2002).Ayrıca IBB-JICA çalışmasında yaklaşık 1600 noktada boru hasarının oluşacağı tahmin edilmektedir. En çok hasarın Fatih ve Güngören’de oluşması beklenmektedir.Aynı zamanda  İstanbul yakınlarında M7+ büyüklüğünde bir depremin olması durumunda kentteki endüstriyel tesislerin ağırlıklı olarak bulunduğu bölgelerde, deprem şiddetinin VIIIIX seviyelerine ulaşması beklenmektedir.Kentteki endüstriyel deprem riski konusunda farklı endüstriyel
-sektörleri kapsayacak şekilde yapılan çalışmalar, IX deprem şiddet bölgesinde makine-ekipman kayıplarının %2-%30 arasında, stok kayıplarının ise %2-%35 arasında gerçekleşebileceğini
-göstermektedir.Olası bir depremde gerçekleşecek bütün sonuçların azaltılması konusu için Hem istanbul hem de Türkiye için öncelikli meselelerden birisidir.İstanbul’un deprem riskinin belirlenmesini takiben İstanbul Büyükşehir Belediyesi adına Boğaziçi,
-Orta Doğu Teknik, İstanbul Teknik ve Yıldız Teknik Üniversiteleri tarafından İstanbul Deprem MasterPlanı hazırlanmıştır (IBB, 2004).
+ailenin, spektral bazlı çalışmaya göre de 430,000 ailenin deprem sonrası acil barınma ihtiyacı doğacağı beklenmektedir.(@erdik2008earthquake) Ayrıca meydana gelmesi beklenen büyük depremden dolayı,İstanbul kentinin eşsiz tarih ve kültür mirası çok ciddi bir deprem tehditi altındadır.Aynı zamanda şehrin altyapısında da muhtemel tehditler bulunmaktadır.Şehirde bulunan 480 köprünün yaklaşık olarak %5'inde tabliye düşmesi sonucunda hasara uğrasması muhtemel olarak değerlendirilmiştir.İstanbul metropol alanı içinde yer alan doğalgaz sistemi boru hatlarında hasar meydana geleceği tahmin edilmektedir. En çok hasarın Fatih ve Güngören semtlerinde oluşması beklenmektedir.Aynı zamanda  İstanbul yakınlarında M7+ büyüklüğünde bir depremin olması durumunda kentteki endüstriyel tesislerede zarar vereceği düşünülmektedir. Tesislerin ağırlıklı olarak bulunduğu bölgelerde, deprem şiddetinin VIIIIX seviyelerine ulaşması beklenmektedir.Kentteki endüstriyel deprem riski konusunda farklı endüstriyel sektörleri kapsayacak şekilde yapılan çalışmalar, IX deprem şiddet bölgesinde makine-ekipman kayıplarının %2-%30 arasında, stok kayıplarının ise %2-%35 arasında gerçekleşebileceğini
+göstermektedir.Ayrıca olası bu depremde oluşacak mali kayıp ise oldukça fazladır.Beklen toplam ekonomik kayıbın yaklaşık olarak 40-60 milyar ABD doları olması beklenmektedir.(@kayaistanbulda).Beklenen depremde gerçekleşecek bütün bu sonuçların azaltılması için öncelikli risklerin belirlenmesi ve takiben risklerin minimum düzeye indirilmesi konusu hem istanbul hem de Türkiye için öncelikli meselelerden birisidir.
 
 
 
 \newpage
 # Kaynakça {#references}
-1)Şimşek P. ve Gündüz A. (2021). A Big Earthquake Awaits Istanbul: Mini Review. Afet ve Risk Dergisi, 4(1), 53-60
-2)A. İSKENDEROĞLU*, L BİLGİN*, M. BAŞ*, M.Ö. YAĞCf, N. ÖZEYRANLI*, Ö,. TAYMAZ*
-N. IKENISHI**, S. SEGAWA*\ H. MAEDA**, O. NISHIl", ¥. KOIKE**, R TAKAHASHI**, A.. HAYASHl*
-İBB, Zemin ve Deprem İnceleme Müdürlüğü-,
-*•* •
-Japonya Uluslararası işbirliği Ajansı (JICA
-<div id="refs"></div>
-3)(Nat Hazards (2008) erdik
-4)Durukal E., M. Erdik, Y. Kaya (2001). ‘’İstanbul’da Tarihi Yapılar ve Deprem Riski’’, İstanbul Bülten,
-TMMOB İnşaat Mühendisleri Odası İstanbul Şubesi Yayın Organı, Yıl: 12, Sayı 55, 4-13.
+
+
 5)JICA-IMM (2003) The Study on a Disaster Prevention / Mitigation Basic Plan in Istanbul including
 Seismic Microzonation in the Republic of Turkey – Japan International Cooperation Agency and Istanbul
 Metropolitan Municipality (JICA – IMM
